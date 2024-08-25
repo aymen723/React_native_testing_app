@@ -1,0 +1,29 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "components/VideoPost.js",
+    "app/(screens)/_layout.js",
+    "app/(screens)/imageViewer.js",
+    "app/(tabs)/_layout.js",
+    "app/(tabs)/Camera.js",
+    "app/(tabs)/ecrypt.js",
+    "app/(tabs)/home.js",
+    "app/(tabs)/search.js",
+    "app/(tabs)/Videos.js",
+    "app/_layout.js",
+    "app/index.tsx",
+    "components/booksitem.js"
+  ]
+}
